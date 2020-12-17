@@ -1,0 +1,6 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "TJ's Class"
+theme = "basic"
+author = "TJ Lamanna"
+description = "My portfolio site"
