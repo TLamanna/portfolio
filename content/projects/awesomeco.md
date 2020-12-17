@@ -9,6 +9,7 @@ tech_used:
 - CSS
 - HTML
 - Python
+- Hugo
 ---
 
 Description of the awesomeco projects...
