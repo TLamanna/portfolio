@@ -1,0 +1,17 @@
+{{ define "main" }}
+	<h2>{{ .Title }}</h2>
+
+	{{ .Content }}
+			<a href="https://libraryvpn.org" target="_blank">
+					<!-- <img src="{{ "vpn.png" | relURL }}" width="300" height="100"> -->
+				LibraryVPN from IMLS
+			</a>
+			<p> Health Privacy from the NNLM.
+<h3>Social Media</h3>
+<ul>
+	{{ range .Site.Data.socialmedia.accounts }}
+		<li><a href="{{ .url }}">LibraryVPN</a></li>
+	{{ end }}
+	</ul>
+{{ end }}
+

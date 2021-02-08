@@ -2,6 +2,6 @@ This is my portfolio
 
 On this site, you'll find
 
-* My biography
-* My projects
-* My resume
+* [About Me]({{< ref "/about" >}} "About Me")
+* [My Presentations/Writing]({{< ref "/presentations" >}} "My Presentations")
+* [My Resume]({{< ref "/resume" >}} "Resume")
